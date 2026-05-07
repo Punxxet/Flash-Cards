@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Flash Cards</h2>
+
+      <section class="progress">
+        <div class="progress-meter">
+          <div class="progress-bar">
+            <div class="progress-fill"></div>
+            <!-- <div class="progress-percent"><span class="value">25%</span></div> -->
+          </div>
+
+          <div class="progress-indicator">
+            <span class="ques-no">0</span> of <span class="total-qns">10</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="main">
+        <div class=" window ques-container">
+          <h2 class="question">
+          </h2>
+        </div>
+
+        <div class=" window ans-container hide">
+          <p class="answer">
+          </p>
+        </div>
+
+        <div class="controls">
+          <button class="prev-btn">
+            <i class="fa-solid fa-angle-left"></i>Previous
+          </button>
+          <button class="toggle-ans-btn">Show Answer</button>
+          <button class="next-btn">
+            Next<i class="fa-solid fa-angle-right"></i>
+          </button>
+        </div>
+      </section>
+    </div>
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
