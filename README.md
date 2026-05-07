@@ -5,7 +5,7 @@ An interactive flashcard web app to study JavaScript concepts. Questions are ser
 ## Live Demo
 [View Live](https://punxxet.github.io/Flash-Cards/) 
 
-Project URL: https://punxxet.github.io/Flash-Cards/
+Project URL: [https://punxxet.github.io/Flash-Cards/](https://roadmap.sh/projects/flash-cards)
 
 
 
