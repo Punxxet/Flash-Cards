@@ -3,7 +3,7 @@
 An interactive flashcard web app to study JavaScript concepts. Questions are served randomly, and you can navigate back and forth through your session history.
 
 ## Live Demo
-[View Live](https://punxxet.github.io/Flash-Cards/)
+[View Live](https://punxxet.github.io/Flash-Cards/) 
 
 
 
